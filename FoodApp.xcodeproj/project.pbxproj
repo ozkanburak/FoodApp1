@@ -7,23 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC1BFF5928D5D6B500613E8B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BFF5828D5D6B500613E8B /* TabBarController.swift */; };
+		CC1BFF5B28D5DC0C00613E8B /* SepetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1BFF5A28D5DC0C00613E8B /* SepetVC.swift */; };
 		CC22B5F128CF632000B11E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC22B5F028CF632000B11E08 /* AppDelegate.swift */; };
 		CC22B5F328CF632000B11E08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC22B5F228CF632000B11E08 /* SceneDelegate.swift */; };
-		CC22B5F528CF632000B11E08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC22B5F428CF632000B11E08 /* ViewController.swift */; };
+		CC22B5F528CF632000B11E08 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC22B5F428CF632000B11E08 /* AnasayfaVC.swift */; };
 		CC22B5F828CF632000B11E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC22B5F628CF632000B11E08 /* Main.storyboard */; };
 		CC22B5FA28CF632200B11E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC22B5F928CF632200B11E08 /* Assets.xcassets */; };
-		CC22B5FD28CF632200B11E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC22B5FB28CF632200B11E08 /* LaunchScreen.storyboard */; };
+		CC22B62228CF65D400B11E08 /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC22B62128CF65D400B11E08 /* DetayVC.swift */; };
+		CC54192328D3E06D00C83B3A /* KayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54192228D3E06D00C83B3A /* KayitVC.swift */; };
+		CC54192528D3E07E00C83B3A /* KayitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54192428D3E07E00C83B3A /* KayitInteractor.swift */; };
+		CC54192728D3E08900C83B3A /* KayitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54192628D3E08900C83B3A /* KayitPresenter.swift */; };
+		CC54192928D3E09700C83B3A /* KayitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54192828D3E09700C83B3A /* KayitRouter.swift */; };
+		CC54192B28D3E0A400C83B3A /* KayitProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54192A28D3E0A400C83B3A /* KayitProtocols.swift */; };
+		CC54192E28D4A4DC00C83B3A /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54192D28D4A4DC00C83B3A /* Yemekler.swift */; };
+		CC54193028D4A4F100C83B3A /* YemeklerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54192F28D4A4F100C83B3A /* YemeklerResponse.swift */; };
+		CC54193228D4A4FA00C83B3A /* YemeklerDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54193128D4A4FA00C83B3A /* YemeklerDetay.swift */; };
+		CC54193428D4A51000C83B3A /* YemeklerDetayResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54193328D4A51000C83B3A /* YemeklerDetayResponse.swift */; };
+		CC54193628D4AA7700C83B3A /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54193528D4AA7700C83B3A /* AnasayfaPresenter.swift */; };
+		CC54193828D4AA8600C83B3A /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54193728D4AA8600C83B3A /* AnasayfaInteractor.swift */; };
+		CC54193A28D4AA9400C83B3A /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54193928D4AA9400C83B3A /* AnasayfaRouter.swift */; };
+		CC54193C28D4AAA200C83B3A /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54193B28D4AAA200C83B3A /* AnasayfaProtocols.swift */; };
+		CC54194028D4B1A900C83B3A /* YemeklerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54193F28D4B1A800C83B3A /* YemeklerCollectionViewCell.swift */; };
+		CC54194228D4F60600C83B3A /* DetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54194128D4F60600C83B3A /* DetayPresenter.swift */; };
+		CC54194428D4F61800C83B3A /* DetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54194328D4F61800C83B3A /* DetayInteractor.swift */; };
+		CC54194628D4F62400C83B3A /* DetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54194528D4F62400C83B3A /* DetayRouter.swift */; };
+		CC54194828D4F63300C83B3A /* DetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54194728D4F63300C83B3A /* DetayProtocols.swift */; };
+		CC869E8428D657D40078CFE1 /* SepetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC869E8328D657D40078CFE1 /* SepetPresenter.swift */; };
+		CC869E8828D657F30078CFE1 /* SepetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC869E8728D657F30078CFE1 /* SepetInteractor.swift */; };
+		CC869E8A28D657FE0078CFE1 /* SepetProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC869E8928D657FE0078CFE1 /* SepetProtocols.swift */; };
+		CC869E9028D65B390078CFE1 /* SepetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC869E8F28D65B390078CFE1 /* SepetRouter.swift */; };
+		CC869E9228D65BD60078CFE1 /* SepetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC869E9128D65BD60078CFE1 /* SepetTableViewCell.swift */; };
+		CCD17D7428D63ED8009B28B3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD17D7328D63ED8009B28B3 /* ProfileVC.swift */; };
+		CCD17D7628D6447A009B28B3 /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD17D7528D6447A009B28B3 /* ProfileProtocols.swift */; };
+		CCD17D7828D64489009B28B3 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD17D7728D64489009B28B3 /* ProfileInteractor.swift */; };
+		CCD17D7A28D6449A009B28B3 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD17D7928D6449A009B28B3 /* ProfileRouter.swift */; };
+		CCD17D7C28D644A8009B28B3 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD17D7B28D644A8009B28B3 /* ProfilePresenter.swift */; };
+		CCD9A09B28D7B03800E6E0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD9A09A28D7B03800E6E0FD /* LaunchScreen.storyboard */; };
+		CCD9A09E28D7C0C100E6E0FD /* BreeSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD9A09D28D7C0C100E6E0FD /* BreeSerif-Regular.ttf */; };
+		CCEF08E928D3B2A400F3332C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CCEF08E828D3B2A400F3332C /* FirebaseAuth */; };
+		CCEF08EB28D3B2A400F3332C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CCEF08EA28D3B2A400F3332C /* FirebaseDatabase */; };
+		CCEF08EE28D3B30C00F3332C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CCEF08ED28D3B30C00F3332C /* Alamofire */; };
+		CCEF08F128D3B35F00F3332C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CCEF08F028D3B35F00F3332C /* Kingfisher */; };
+		CCEF08FD28D3B3FA00F3332C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCEF08FC28D3B3FA00F3332C /* GoogleService-Info.plist */; };
+		CCEF090128D3B4DC00F3332C /* GirisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEF090028D3B4DC00F3332C /* GirisVC.swift */; };
+		CCEF090328D3B9E100F3332C /* GirisInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEF090228D3B9E000F3332C /* GirisInteractor.swift */; };
+		CCEF090528D3BA0900F3332C /* GirisPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEF090428D3BA0900F3332C /* GirisPresenter.swift */; };
+		CCEF090728D3BA1B00F3332C /* GirisRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEF090628D3BA1B00F3332C /* GirisRouter.swift */; };
+		CCEF090928D3BA2F00F3332C /* GirisProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEF090828D3BA2F00F3332C /* GirisProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC1BFF5828D5D6B500613E8B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CC1BFF5A28D5DC0C00613E8B /* SepetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetVC.swift; sourceTree = "<group>"; };
 		CC22B5ED28CF632000B11E08 /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC22B5F028CF632000B11E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC22B5F228CF632000B11E08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC22B5F428CF632000B11E08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC22B5F428CF632000B11E08 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		CC22B5F728CF632000B11E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC22B5F928CF632200B11E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC22B5FC28CF632200B11E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC22B5FE28CF632200B11E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC22B62128CF65D400B11E08 /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
+		CC54192228D3E06D00C83B3A /* KayitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitVC.swift; sourceTree = "<group>"; };
+		CC54192428D3E07E00C83B3A /* KayitInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitInteractor.swift; sourceTree = "<group>"; };
+		CC54192628D3E08900C83B3A /* KayitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitPresenter.swift; sourceTree = "<group>"; };
+		CC54192828D3E09700C83B3A /* KayitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitRouter.swift; sourceTree = "<group>"; };
+		CC54192A28D3E0A400C83B3A /* KayitProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitProtocols.swift; sourceTree = "<group>"; };
+		CC54192D28D4A4DC00C83B3A /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
+		CC54192F28D4A4F100C83B3A /* YemeklerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerResponse.swift; sourceTree = "<group>"; };
+		CC54193128D4A4FA00C83B3A /* YemeklerDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerDetay.swift; sourceTree = "<group>"; };
+		CC54193328D4A51000C83B3A /* YemeklerDetayResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerDetayResponse.swift; sourceTree = "<group>"; };
+		CC54193528D4AA7700C83B3A /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		CC54193728D4AA8600C83B3A /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		CC54193928D4AA9400C83B3A /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		CC54193B28D4AAA200C83B3A /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		CC54193F28D4B1A800C83B3A /* YemeklerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC54194128D4F60600C83B3A /* DetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayPresenter.swift; sourceTree = "<group>"; };
+		CC54194328D4F61800C83B3A /* DetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayInteractor.swift; sourceTree = "<group>"; };
+		CC54194528D4F62400C83B3A /* DetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayRouter.swift; sourceTree = "<group>"; };
+		CC54194728D4F63300C83B3A /* DetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayProtocols.swift; sourceTree = "<group>"; };
+		CC869E8328D657D40078CFE1 /* SepetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetPresenter.swift; sourceTree = "<group>"; };
+		CC869E8728D657F30078CFE1 /* SepetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SepetInteractor.swift; path = ../router/SepetInteractor.swift; sourceTree = "<group>"; };
+		CC869E8928D657FE0078CFE1 /* SepetProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetProtocols.swift; sourceTree = "<group>"; };
+		CC869E8F28D65B390078CFE1 /* SepetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetRouter.swift; sourceTree = "<group>"; };
+		CC869E9128D65BD60078CFE1 /* SepetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetTableViewCell.swift; sourceTree = "<group>"; };
+		CCD17D7328D63ED8009B28B3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		CCD17D7528D6447A009B28B3 /* ProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileProtocols.swift; sourceTree = "<group>"; };
+		CCD17D7728D64489009B28B3 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		CCD17D7928D6449A009B28B3 /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		CCD17D7B28D644A8009B28B3 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		CCD9A09A28D7B03800E6E0FD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD9A09D28D7C0C100E6E0FD /* BreeSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BreeSerif-Regular.ttf"; sourceTree = "<group>"; };
+		CCEF08FC28D3B3FA00F3332C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCEF090028D3B4DC00F3332C /* GirisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisVC.swift; sourceTree = "<group>"; };
+		CCEF090228D3B9E000F3332C /* GirisInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisInteractor.swift; sourceTree = "<group>"; };
+		CCEF090428D3BA0900F3332C /* GirisPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisPresenter.swift; sourceTree = "<group>"; };
+		CCEF090628D3BA1B00F3332C /* GirisRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisRouter.swift; sourceTree = "<group>"; };
+		CCEF090828D3BA2F00F3332C /* GirisProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +111,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEF08F128D3B35F00F3332C /* Kingfisher in Frameworks */,
+				CCEF08EE28D3B30C00F3332C /* Alamofire in Frameworks */,
+				CCEF08EB28D3B2A400F3332C /* FirebaseDatabase in Frameworks */,
+				CCEF08E928D3B2A400F3332C /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +142,371 @@
 			children = (
 				CC22B5F028CF632000B11E08 /* AppDelegate.swift */,
 				CC22B5F228CF632000B11E08 /* SceneDelegate.swift */,
-				CC22B5F428CF632000B11E08 /* ViewController.swift */,
+				CC1BFF5828D5D6B500613E8B /* TabBarController.swift */,
+				CCD9A09C28D7C06F00E6E0FD /* Fonts */,
+				CCA8868D28D35BB500F46407 /* girisModule */,
+				CCA8868C28D35BAC00F46407 /* kayitModule */,
+				CC22B60928CF637200B11E08 /* profilModule */,
+				CC22B60828CF636800B11E08 /* anasayfaModule */,
+				CC22B60728CF636000B11E08 /* detayModule */,
+				CC22B60628CF634E00B11E08 /* sepetModule */,
+				CC22B60428CF633800B11E08 /* entity */,
 				CC22B5F628CF632000B11E08 /* Main.storyboard */,
+				CCD9A09A28D7B03800E6E0FD /* LaunchScreen.storyboard */,
 				CC22B5F928CF632200B11E08 /* Assets.xcassets */,
-				CC22B5FB28CF632200B11E08 /* LaunchScreen.storyboard */,
 				CC22B5FE28CF632200B11E08 /* Info.plist */,
+				CCEF08FC28D3B3FA00F3332C /* GoogleService-Info.plist */,
 			);
 			path = FoodApp;
+			sourceTree = "<group>";
+		};
+		CC22B60428CF633800B11E08 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				CC54192D28D4A4DC00C83B3A /* Yemekler.swift */,
+				CC54192F28D4A4F100C83B3A /* YemeklerResponse.swift */,
+				CC54193128D4A4FA00C83B3A /* YemeklerDetay.swift */,
+				CC54193328D4A51000C83B3A /* YemeklerDetayResponse.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		CC22B60628CF634E00B11E08 /* sepetModule */ = {
+			isa = PBXGroup;
+			children = (
+				CC22B61A28CF641800B11E08 /* view */,
+				CC22B61928CF641200B11E08 /* presenter */,
+				CC22B61828CF640D00B11E08 /* interactor */,
+				CC22B61728CF640900B11E08 /* router */,
+				CC22B61628CF640400B11E08 /* protocols */,
+				CC22B61528CF63FB00B11E08 /* tableview */,
+			);
+			path = sepetModule;
+			sourceTree = "<group>";
+		};
+		CC22B60728CF636000B11E08 /* detayModule */ = {
+			isa = PBXGroup;
+			children = (
+				CC22B61428CF63F400B11E08 /* view */,
+				CC22B61328CF63EE00B11E08 /* presenter */,
+				CC22B61228CF63E800B11E08 /* interactor */,
+				CC22B61128CF63E300B11E08 /* router */,
+				CC22B61028CF63DD00B11E08 /* protocols */,
+			);
+			path = detayModule;
+			sourceTree = "<group>";
+		};
+		CC22B60828CF636800B11E08 /* anasayfaModule */ = {
+			isa = PBXGroup;
+			children = (
+				CC22B60F28CF63D500B11E08 /* view */,
+				CC22B60E28CF63CF00B11E08 /* presenter */,
+				CC22B60D28CF63C700B11E08 /* interactor */,
+				CC22B60C28CF63BF00B11E08 /* router */,
+				CC22B60B28CF63B500B11E08 /* protocols */,
+				CC22B60A28CF63AA00B11E08 /* collectionview */,
+			);
+			path = anasayfaModule;
+			sourceTree = "<group>";
+		};
+		CC22B60928CF637200B11E08 /* profilModule */ = {
+			isa = PBXGroup;
+			children = (
+				CCD17D7228D63EB1009B28B3 /* protocols */,
+				CCD17D7128D63EA8009B28B3 /* interactor */,
+				CCD17D7028D63EA2009B28B3 /* route */,
+				CCD17D6F28D63E95009B28B3 /* presenter */,
+				CCD17D6E28D63E8F009B28B3 /* view */,
+			);
+			path = profilModule;
+			sourceTree = "<group>";
+		};
+		CC22B60A28CF63AA00B11E08 /* collectionview */ = {
+			isa = PBXGroup;
+			children = (
+				CC54193F28D4B1A800C83B3A /* YemeklerCollectionViewCell.swift */,
+			);
+			path = collectionview;
+			sourceTree = "<group>";
+		};
+		CC22B60B28CF63B500B11E08 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CC54193B28D4AAA200C83B3A /* AnasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CC22B60C28CF63BF00B11E08 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				CC54193928D4AA9400C83B3A /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		CC22B60D28CF63C700B11E08 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CC54193728D4AA8600C83B3A /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CC22B60E28CF63CF00B11E08 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CC54193528D4AA7700C83B3A /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CC22B60F28CF63D500B11E08 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CC22B5F428CF632000B11E08 /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CC22B61028CF63DD00B11E08 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CC54194728D4F63300C83B3A /* DetayProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CC22B61128CF63E300B11E08 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				CC54194528D4F62400C83B3A /* DetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		CC22B61228CF63E800B11E08 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CC54194328D4F61800C83B3A /* DetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CC22B61328CF63EE00B11E08 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CC54194128D4F60600C83B3A /* DetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CC22B61428CF63F400B11E08 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CC22B62128CF65D400B11E08 /* DetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CC22B61528CF63FB00B11E08 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				CC869E9128D65BD60078CFE1 /* SepetTableViewCell.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		CC22B61628CF640400B11E08 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CC869E8928D657FE0078CFE1 /* SepetProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CC22B61728CF640900B11E08 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				CC869E8F28D65B390078CFE1 /* SepetRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		CC22B61828CF640D00B11E08 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CC869E8728D657F30078CFE1 /* SepetInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CC22B61928CF641200B11E08 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CC869E8328D657D40078CFE1 /* SepetPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CC22B61A28CF641800B11E08 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CC1BFF5A28D5DC0C00613E8B /* SepetVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CCA8868C28D35BAC00F46407 /* kayitModule */ = {
+			isa = PBXGroup;
+			children = (
+				CCEF08FB28D3B3CF00F3332C /* view */,
+				CCEF08FA28D3B3CA00F3332C /* interactor */,
+				CCEF08F928D3B3C600F3332C /* presenter */,
+				CCEF08F828D3B3BF00F3332C /* router */,
+				CCEF08F728D3B3B900F3332C /* protocols */,
+			);
+			path = kayitModule;
+			sourceTree = "<group>";
+		};
+		CCA8868D28D35BB500F46407 /* girisModule */ = {
+			isa = PBXGroup;
+			children = (
+				CCEF08F628D3B3A200F3332C /* view */,
+				CCEF08F528D3B39500F3332C /* interactor */,
+				CCEF08F428D3B38E00F3332C /* presenter */,
+				CCEF08F328D3B38700F3332C /* router */,
+				CCEF08F228D3B38100F3332C /* protocols */,
+			);
+			path = girisModule;
+			sourceTree = "<group>";
+		};
+		CCD17D6E28D63E8F009B28B3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CCD17D7328D63ED8009B28B3 /* ProfileVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CCD17D6F28D63E95009B28B3 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CCD17D7B28D644A8009B28B3 /* ProfilePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CCD17D7028D63EA2009B28B3 /* route */ = {
+			isa = PBXGroup;
+			children = (
+				CCD17D7928D6449A009B28B3 /* ProfileRouter.swift */,
+			);
+			path = route;
+			sourceTree = "<group>";
+		};
+		CCD17D7128D63EA8009B28B3 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CCD17D7728D64489009B28B3 /* ProfileInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CCD17D7228D63EB1009B28B3 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CCD17D7528D6447A009B28B3 /* ProfileProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CCD9A09C28D7C06F00E6E0FD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCD9A09D28D7C0C100E6E0FD /* BreeSerif-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CCEF08F228D3B38100F3332C /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CCEF090828D3BA2F00F3332C /* GirisProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CCEF08F328D3B38700F3332C /* router */ = {
+			isa = PBXGroup;
+			children = (
+				CCEF090628D3BA1B00F3332C /* GirisRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		CCEF08F428D3B38E00F3332C /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CCEF090428D3BA0900F3332C /* GirisPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CCEF08F528D3B39500F3332C /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CCEF090228D3B9E000F3332C /* GirisInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CCEF08F628D3B3A200F3332C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CCEF090028D3B4DC00F3332C /* GirisVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CCEF08F728D3B3B900F3332C /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CC54192A28D3E0A400C83B3A /* KayitProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CCEF08F828D3B3BF00F3332C /* router */ = {
+			isa = PBXGroup;
+			children = (
+				CC54192828D3E09700C83B3A /* KayitRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		CCEF08F928D3B3C600F3332C /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CC54192628D3E08900C83B3A /* KayitPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		CCEF08FA28D3B3CA00F3332C /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CC54192428D3E07E00C83B3A /* KayitInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		CCEF08FB28D3B3CF00F3332C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CC54192228D3E06D00C83B3A /* KayitVC.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +525,12 @@
 			dependencies = (
 			);
 			name = FoodApp;
+			packageProductDependencies = (
+				CCEF08E828D3B2A400F3332C /* FirebaseAuth */,
+				CCEF08EA28D3B2A400F3332C /* FirebaseDatabase */,
+				CCEF08ED28D3B30C00F3332C /* Alamofire */,
+				CCEF08F028D3B35F00F3332C /* Kingfisher */,
+			);
 			productName = FoodApp;
 			productReference = CC22B5ED28CF632000B11E08 /* FoodApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +559,11 @@
 				Base,
 			);
 			mainGroup = CC22B5E428CF632000B11E08;
+			packageReferences = (
+				CCEF08E728D3B2A400F3332C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CCEF08EC28D3B30C00F3332C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				CCEF08EF28D3B35E00F3332C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = CC22B5EE28CF632000B11E08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +578,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC22B5FD28CF632200B11E08 /* LaunchScreen.storyboard in Resources */,
 				CC22B5FA28CF632200B11E08 /* Assets.xcassets in Resources */,
+				CCEF08FD28D3B3FA00F3332C /* GoogleService-Info.plist in Resources */,
+				CCD9A09B28D7B03800E6E0FD /* LaunchScreen.storyboard in Resources */,
+				CCD9A09E28D7C0C100E6E0FD /* BreeSerif-Regular.ttf in Resources */,
 				CC22B5F828CF632000B11E08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +593,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC22B5F528CF632000B11E08 /* ViewController.swift in Sources */,
+				CCD17D7428D63ED8009B28B3 /* ProfileVC.swift in Sources */,
+				CC869E9028D65B390078CFE1 /* SepetRouter.swift in Sources */,
+				CC54194628D4F62400C83B3A /* DetayRouter.swift in Sources */,
+				CC54194428D4F61800C83B3A /* DetayInteractor.swift in Sources */,
+				CC54192928D3E09700C83B3A /* KayitRouter.swift in Sources */,
+				CCEF090528D3BA0900F3332C /* GirisPresenter.swift in Sources */,
+				CC54193228D4A4FA00C83B3A /* YemeklerDetay.swift in Sources */,
+				CC54192B28D3E0A400C83B3A /* KayitProtocols.swift in Sources */,
+				CC22B62228CF65D400B11E08 /* DetayVC.swift in Sources */,
+				CC869E9228D65BD60078CFE1 /* SepetTableViewCell.swift in Sources */,
+				CC1BFF5B28D5DC0C00613E8B /* SepetVC.swift in Sources */,
+				CCEF090128D3B4DC00F3332C /* GirisVC.swift in Sources */,
+				CC869E8A28D657FE0078CFE1 /* SepetProtocols.swift in Sources */,
+				CCD17D7C28D644A8009B28B3 /* ProfilePresenter.swift in Sources */,
+				CC54192E28D4A4DC00C83B3A /* Yemekler.swift in Sources */,
+				CCEF090728D3BA1B00F3332C /* GirisRouter.swift in Sources */,
+				CC869E8428D657D40078CFE1 /* SepetPresenter.swift in Sources */,
+				CC54193428D4A51000C83B3A /* YemeklerDetayResponse.swift in Sources */,
+				CC54193A28D4AA9400C83B3A /* AnasayfaRouter.swift in Sources */,
+				CC869E8828D657F30078CFE1 /* SepetInteractor.swift in Sources */,
+				CC54194828D4F63300C83B3A /* DetayProtocols.swift in Sources */,
+				CC22B5F528CF632000B11E08 /* AnasayfaVC.swift in Sources */,
+				CC54193C28D4AAA200C83B3A /* AnasayfaProtocols.swift in Sources */,
+				CC54192728D3E08900C83B3A /* KayitPresenter.swift in Sources */,
+				CC54193628D4AA7700C83B3A /* AnasayfaPresenter.swift in Sources */,
+				CC54194228D4F60600C83B3A /* DetayPresenter.swift in Sources */,
+				CC1BFF5928D5D6B500613E8B /* TabBarController.swift in Sources */,
+				CCD17D7A28D6449A009B28B3 /* ProfileRouter.swift in Sources */,
 				CC22B5F128CF632000B11E08 /* AppDelegate.swift in Sources */,
 				CC22B5F328CF632000B11E08 /* SceneDelegate.swift in Sources */,
+				CC54192328D3E06D00C83B3A /* KayitVC.swift in Sources */,
+				CC54194028D4B1A900C83B3A /* YemeklerCollectionViewCell.swift in Sources */,
+				CCEF090928D3BA2F00F3332C /* GirisProtocols.swift in Sources */,
+				CCD17D7628D6447A009B28B3 /* ProfileProtocols.swift in Sources */,
+				CC54192528D3E07E00C83B3A /* KayitInteractor.swift in Sources */,
+				CC54193028D4A4F100C83B3A /* YemeklerResponse.swift in Sources */,
+				CC54193828D4AA8600C83B3A /* AnasayfaInteractor.swift in Sources */,
+				CCD17D7828D64489009B28B3 /* ProfileInteractor.swift in Sources */,
+				CCEF090328D3B9E100F3332C /* GirisInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +644,6 @@
 				CC22B5F728CF632000B11E08 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CC22B5FB28CF632200B11E08 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC22B5FC28CF632200B11E08 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -356,6 +839,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCEF08E728D3B2A400F3332C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CCEF08EC28D3B30C00F3332C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CCEF08EF28D3B35E00F3332C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCEF08E828D3B2A400F3332C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCEF08E728D3B2A400F3332C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CCEF08EA28D3B2A400F3332C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCEF08E728D3B2A400F3332C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CCEF08ED28D3B30C00F3332C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCEF08EC28D3B30C00F3332C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		CCEF08F028D3B35F00F3332C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCEF08EF28D3B35E00F3332C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC22B5E528CF632000B11E08 /* Project object */;
 }
